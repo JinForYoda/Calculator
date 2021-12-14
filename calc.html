@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Smooth Calculator</title>
+	<link rel="stylesheet" href="calc.css">
+	<script src="script.js"></script>
+	<script src="calc.js"></script>
+</head>
+
+<body>
+	<div class="bg-image"></div>
+	<span class="title"><span style="color:#006E9D ;">Smooth</span> Calculator</span>
+	<div class="calc">
+		<div class="calc__main">
+			<div class="calc__main__display">
+				<input class="calc__main__dislay__top" type="text">
+				<input class="calc__main__dislay__block" type="text">
+			</div>
+			<div class="calc__main__input">
+				<table>
+					<tr>
+						<td class='more_table'>
+							<table>
+								<tr>
+									<td id="Escape" class='more'>CE</td>
+									<td id="Backspace" class='more'>
+										<image id="delete" src="delete.png"></image>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td id=")">(</td>
+						<td id="(">)</td>
+						<td id="/">/</td>
+					</tr>
+					<tr>
+						<td id="7">7</td>
+						<td id="8">8</td>
+						<td id="9">9</td>
+						<td id="*">*</td>
+					</tr>
+					<tr>
+						<td id="4">4</td>
+						<td id="5">5</td>
+						<td id="6">6</td>
+						<td id="-">-</td>
+					</tr>
+					<tr>
+						<td id="1">1</td>
+						<td id="2">2</td>
+						<td id="3">3</td>
+						<td id="+">+</td>
+					</tr>
+					<tr>
+						<td>+/-</td>
+						<td id="0">0</td>
+						<td id=".">.</td>
+						<td id="Enter" class="more">=</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="calc__history">
+
+		</div>
+		<div class="trashBlock">
+			<image id="trash" src="trash.png"></image>
+		</div>
+	</div>
+</body>
+
+</html>
